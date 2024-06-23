@@ -1,4 +1,4 @@
-const User = require('../models/user');
+const User = require('../models/User');
 const Question = require('../models/question');
 const catchAsyncErrors = require('../middleware/catchAsyncErrors');
 const ErrorHandler = require('../utilis/errorHandler');

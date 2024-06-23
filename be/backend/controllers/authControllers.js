@@ -1,4 +1,4 @@
-const User = require('../models/user');
+const User = require('../models/User');
 const Income = require('../models/income');
 const catchAsyncErrors = require('../middleware/catchAsyncErrors');
 const sendToken = require('../utilis/jwtToken');
