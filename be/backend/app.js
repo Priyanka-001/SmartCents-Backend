@@ -4,6 +4,9 @@ const app = express();
 const cors = require("cors");
 
 app.use(cors({ credentials: true, origin: ["http://localhost:3000", ""] }));
+app.get("/test", (req, res) => {
+  res.send("Hello world!");
+});
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
